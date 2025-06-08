@@ -1,0 +1,14 @@
+{
+  "name": "bitburner",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/bun": "latest",
+    "hereby": "^1.11.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}

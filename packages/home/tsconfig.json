@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@ns": ["types/NetscriptDefinitions.d.ts"]
+    }
+  },
+  "include": ["src"]
+}
